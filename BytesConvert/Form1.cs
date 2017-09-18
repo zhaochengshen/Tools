@@ -6,8 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Forms;
-
+using System.Windows.Forms; 
 namespace BytesConvert
 {
     public partial class Form1 : Form
@@ -25,10 +24,7 @@ namespace BytesConvert
                     ((TextBox)control).TextChanged += NextTab;
                 }
             }
-        }
-
-
-
+        } 
         private void Form1_Load(object sender, EventArgs e)
         {
             list = new List<ProcessMode>(
