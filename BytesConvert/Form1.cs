@@ -1,4 +1,16 @@
-﻿using System;
+﻿
+//应用程序使用说明
+//Bytes转换为十进制数字
+//2byte => ushot
+//2byte => short
+//4byte => uint
+//4byte => int
+//8byte => ulong
+//8byte => long
+//4byte => float
+//8byte => double
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
